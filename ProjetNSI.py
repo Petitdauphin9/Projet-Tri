@@ -1,6 +1,6 @@
 def Tri_bulle(tab : list) -> list:
     temp = tab[0]
-    for i in tab:
+    for i in range(len(tab)- 1):
         if tab[i + 1] < tab[i]:
             temp = tab[i]
             tab[i] = tab[i + 1]
