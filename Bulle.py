@@ -1,6 +1,6 @@
 def _remonteBulle(tab : list, k : int) -> bool:
     dejaOrdonne : bool = True
-    for i in range(len(tab)- 1):
+    for i in k:
         if tab[i + 1] < tab[i]:
             temp = tab[i]
             tab[i] = tab[i + 1]
@@ -8,4 +8,4 @@ def _remonteBulle(tab : list, k : int) -> bool:
             dejaOrdonne = False
     return dejaOrdonne
 
-def triBulle()
+def triBulle(tab)
