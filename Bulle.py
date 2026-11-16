@@ -1,4 +1,4 @@
-def Tri_bulle(tab : list) -> list:
+def triBulle(tab : list) -> list:
     temp = tab[0]
     for i in range(len(tab)- 1):
         if tab[i + 1] < tab[i]:
@@ -6,3 +6,5 @@ def Tri_bulle(tab : list) -> list:
             tab[i] = tab[i + 1]
             tab[i + 1] = temp
     return tab
+
+def _remonteBulle()
